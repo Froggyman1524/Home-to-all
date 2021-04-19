@@ -1,3 +1,11 @@
+html{
+	height: 100%
+}
+body{
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
 header ul{
 	display: inline-flex;
 }
@@ -16,10 +24,37 @@ a{
 	padding: 0px;
 	background-color: white;
 	font-family: sans-serif;
-	border: 1px solid black;
+	border: 2px solid black;
 	margin: 1px;
-	border-radius: 0px;
+	border-radius: 150px;
 }
 .Login:hover{
 	background-color: #7ed689;
+}
+.Signup{
+		padding: 0px;
+	background-color: white;
+	font-family: sans-serif;
+	border: 2px solid black;
+	margin: 1px;
+	border-radius: 150px;
+}
+.Signup:hover{
+	background-color: #7ed689;
+}
+p{
+	text-align: center;
+	font-family: sans-serif;
+}
+footer{
+	margin-top: auto;
+	padding: 15px;
+	background-color: #999999
+}
+footer ul li{
+	color: #fff;
+	font-family: sans-serif;
+	list-style-type: none;
+	text-align: center;
+	font-size: 15px;
 }
