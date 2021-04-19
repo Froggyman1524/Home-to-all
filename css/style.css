@@ -1,36 +1,25 @@
-.Shoes{
-	padding: 0px;
-	margin: 0px;
-	background-color: #1d2c8c;
-	background-position: center;
-}
-.Shoes ul{
-	font-family: sans-serif;
-	color: white;
+header ul{
 	display: inline-flex;
-	list-style-type: none;
-	text-align: center;
 }
-.Shoes ul li{
+header ul li{
 	margin: 10px;
-}
-body a{
-	text-decoration: none;
-	color: red;
-}
-
-footer{
-padding: 10px;
-background-color:#8037ad;
-margin: 0px;
-background-position: center;
-}
-footer ul{
 	list-style-type: none;
-	text-align: left;
-	margin: 0px;
+	text-decoration: none;
+	color: black;
+	font-family: sans-serif;
 }
-footer ul li{
-		display: inline;
-	margin: 0px;
+a{
+	text-decoration: none;
+	color: black;
+}
+.Login{
+	padding: 0px;
+	background-color: white;
+	font-family: sans-serif;
+	border: 1px solid black;
+	margin: 1px;
+	border-radius: 0px;
+}
+.Login:hover{
+	background-color: #7ed689;
 }
