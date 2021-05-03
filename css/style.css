@@ -1,9 +1,17 @@
 html, body{
 	margin: 0px;
+	min-width: 0%
+}
+::-webkit-scrollbar{
+	display: none;
 }
 body{
+	min-width: 0%;
 	margin-top: 0;
-	background: linear-gradient(120deg, #3b3b3b, white);
+	background-color: #212121;
+}
+a{
+	text-decoration: none;
 }
 .Contaner{
 	width: 100%;
@@ -53,19 +61,56 @@ a:hover{
 .header-img{
 	size: 0px;
 }
-.no-service{
+.Main-Page-About-Us{
 	font-family: sans-serif;
 	font-size: 50px;
 	text-transform: uppercase;
 	text-align: center;
 	color: #f3ca20;
 	position: relative;
-	top: 160px;
+	top: 250px;
+	left: 100px
 }
-@supports (-webkit-text-stroke: 1px black) {
-
-  .no-service {
-    -webkit-text-stroke: 1px #3b3b3b;
-    -webkit-text-fill-color: #f3ca20;
-  }
+.Main-Page-About-Us button{
+	border: 2px solid white;
+	border-radius: 150px;
+	background-color: transparent;
+	border-color: white;
+	font-size: 20px;
+	position: relative;
+	top: 50px;
+	right: 240px;
+	transition: background-color 2s;
+}
+.Main-Page-About-Us button a{
+	color: white;
+}
+.Main-Page-About-Us button:hover{
+	background-color: #f3ca20;
+}
+.Main-Page-About-Us a:hover{
+	color:black;
+}
+.Main-Page-About-Us a{
+	color: black;
+	font-family: sans-serif;
+}
+.Name{
+	color: #f3ca20;
+	height: 400px;
+	width: 1400px;
+	background-color: transparent;
+	font-family: sans-serif;
+	font-size: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	position: absolute;
+	left: 0;
+	top: 530px;
+}
+.Story {
+	text-transform: initial;
+	font-family: sans-serif;
+	font-size: 40px;
+	color:white;
 }
